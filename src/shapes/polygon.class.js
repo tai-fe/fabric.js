@@ -51,7 +51,7 @@
      */
     _getPolygonLines: function(points) {
       var lines = [];
-      points.forEach((point, index) => {
+      points.forEach(function(point, index) {
         if (points[index + 1]) {
           var line = {
             o: point,
